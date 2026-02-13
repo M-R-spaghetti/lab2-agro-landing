@@ -14,12 +14,42 @@
     <title>Інформаційна система комунікації та інформування клієнтів агрофірми</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Open Graph tags -->
+    <meta property="og:title" content="Інформаційна система комунікації та інформування клієнтів агрофірми">
+    <meta property="og:description"
+        content="Бакалаврська робота — розробка веб-додатку на PHP та MySQL для автоматизації взаємодії з клієнтами агрофірми.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://m-r-spaghetti.github.io/lab2-agro-landing/">
+    <meta property="og:image" content="https://m-r-spaghetti.github.io/lab2-agro-landing/images/og-image.jpg">
+    <meta property="og:locale" content="uk_UA">
+
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ScholarlyArticle",
+        "name": "Інформаційна система комунікації та інформування клієнтів агрофірми",
+        "alternateName": "Information System for Communication and Informing Clients of an Agricultural Company",
+        "description": "Розробка інформаційної системи комунікації та інформування клієнтів агрофірми з використанням PHP, MySQL та клієнт-серверної архітектури.",
+        "keywords": "веб-сайт, веб-додаток, агрофірма, PHP, MySQL, клієнт-серверна архітектура",
+        "inLanguage": "uk",
+        "sourceOrganization": {
+            "@type": "CollegeOrUniversity",
+            "name": "Сумський державний університет"
+        },
+        "url": "https://m-r-spaghetti.github.io/lab2-agro-landing/"
+    }
+    </script>
 </head>
 
 <body>
+    <!-- Skip navigation for accessibility -->
+    <a href="#main-content" class="skip-link" aria-label="Перейти до основного вмісту">Перейти до основного вмісту</a>
+
     <!-- Header -->
-    <header>
-        <nav>
+    <header role="banner">
+        <nav role="navigation" aria-label="Головна навігація">
             <ul>
                 <li><a href="#about">Про роботу</a></li>
                 <li><a href="#relevance">Актуальність</a></li>
@@ -32,34 +62,42 @@
     </header>
 
     <!-- Main content -->
-    <main>
+    <main id="main-content" role="main">
         <!-- Hero / About section -->
-        <section id="about">
+        <section id="about" aria-labelledby="about-title">
+            <h1 id="about-title">Інформаційна система комунікації та інформування клієнтів агрофірми</h1>
+            <p>Information System for Communication and Informing Clients of an Agricultural Company</p>
         </section>
 
         <!-- Relevance section -->
-        <section id="relevance">
+        <section id="relevance" aria-labelledby="relevance-title">
+            <h2 id="relevance-title">Актуальність теми</h2>
         </section>
 
         <!-- Goals section -->
-        <section id="goals">
+        <section id="goals" aria-labelledby="goals-title">
+            <h2 id="goals-title">Мета та завдання</h2>
         </section>
 
         <!-- Methodology section -->
-        <section id="methodology">
+        <section id="methodology" aria-labelledby="methodology-title">
+            <h2 id="methodology-title">Методологія дослідження</h2>
         </section>
 
         <!-- Expected results section -->
-        <section id="results">
+        <section id="results" aria-labelledby="results-title">
+            <h2 id="results-title">Очікувані результати</h2>
         </section>
 
         <!-- Contacts section -->
-        <section id="contacts">
+        <section id="contacts" aria-labelledby="contacts-title">
+            <h2 id="contacts-title">Контакти</h2>
         </section>
     </main>
 
     <!-- Footer -->
-    <footer>
+    <footer role="contentinfo">
+        <p>&copy; 2026 Сумський державний університет</p>
     </footer>
 </body>
 
