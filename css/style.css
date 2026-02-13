@@ -660,17 +660,32 @@ footer p {
         grid-template-columns: 1fr;
     }
 
+    /* Hotfix: Mobile Header Overlap */
+    header {
+        z-index: 1100;
+        background: var(--color-white);
+    }
+
+    .hero {
+        padding-top: calc(100px + var(--spacing-2xl));
+    }
+
     nav ul {
         gap: 0;
     }
 
     nav ul a {
-        padding: var(--spacing-xs) var(--spacing-sm);
-        font-size: var(--font-size-xs);
+        padding: 4px 6px;
+        font-size: 0.7rem;
     }
 
     .nav-logo span {
         display: none;
+    }
+
+    .lang-switch {
+        padding: 2px 6px;
+        font-size: 0.7rem;
     }
 }
 
