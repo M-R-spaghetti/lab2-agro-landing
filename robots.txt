@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://m-r-spaghetti.github.io/lab2-agro-landing/sitemap.xml
