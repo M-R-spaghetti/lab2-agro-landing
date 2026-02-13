@@ -667,16 +667,17 @@ footer p {
     }
 
     .hero {
-        padding-top: calc(100px + var(--spacing-2xl));
+        padding-top: calc(140px + var(--spacing-2xl));
     }
 
     nav ul {
         gap: 0;
+        justify-content: center;
     }
 
     nav ul a {
-        padding: 4px 6px;
-        font-size: 0.7rem;
+        padding: 2px 4px;
+        font-size: 0.75rem;
     }
 
     .nav-logo span {
@@ -685,7 +686,7 @@ footer p {
 
     .lang-switch {
         padding: 2px 6px;
-        font-size: 0.7rem;
+        font-size: 0.75rem;
     }
 }
 
