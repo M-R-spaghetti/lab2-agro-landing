@@ -17,9 +17,12 @@
 </head>
 
 <body>
+    <!-- Skip navigation for accessibility -->
+    <a href="#main-content" class="skip-link" aria-label="Перейти до основного вмісту">Перейти до основного вмісту</a>
+
     <!-- Header -->
-    <header>
-        <nav>
+    <header role="banner">
+        <nav role="navigation" aria-label="Головна навігація">
             <ul>
                 <li><a href="#about">Про роботу</a></li>
                 <li><a href="#relevance">Актуальність</a></li>
@@ -32,34 +35,42 @@
     </header>
 
     <!-- Main content -->
-    <main>
+    <main id="main-content" role="main">
         <!-- Hero / About section -->
-        <section id="about">
+        <section id="about" aria-labelledby="about-title">
+            <h1 id="about-title">Інформаційна система комунікації та інформування клієнтів агрофірми</h1>
+            <p>Information System for Communication and Informing Clients of an Agricultural Company</p>
         </section>
 
         <!-- Relevance section -->
-        <section id="relevance">
+        <section id="relevance" aria-labelledby="relevance-title">
+            <h2 id="relevance-title">Актуальність теми</h2>
         </section>
 
         <!-- Goals section -->
-        <section id="goals">
+        <section id="goals" aria-labelledby="goals-title">
+            <h2 id="goals-title">Мета та завдання</h2>
         </section>
 
         <!-- Methodology section -->
-        <section id="methodology">
+        <section id="methodology" aria-labelledby="methodology-title">
+            <h2 id="methodology-title">Методологія дослідження</h2>
         </section>
 
         <!-- Expected results section -->
-        <section id="results">
+        <section id="results" aria-labelledby="results-title">
+            <h2 id="results-title">Очікувані результати</h2>
         </section>
 
         <!-- Contacts section -->
-        <section id="contacts">
+        <section id="contacts" aria-labelledby="contacts-title">
+            <h2 id="contacts-title">Контакти</h2>
         </section>
     </main>
 
     <!-- Footer -->
-    <footer>
+    <footer role="contentinfo">
+        <p>&copy; 2026 Сумський державний університет</p>
     </footer>
 </body>
 
