@@ -664,9 +664,13 @@ footer p {
         gap: 0;
     }
 
-    nav a {
+    nav ul a {
         padding: var(--spacing-xs) var(--spacing-sm);
         font-size: var(--font-size-xs);
+    }
+
+    .nav-logo span {
+        display: none;
     }
 }
 
